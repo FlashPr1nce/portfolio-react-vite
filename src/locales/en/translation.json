@@ -1,0 +1,84 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "greeting": "Hello, I’m",
+    "name": "Artur Zaleatdinov",
+    "frontend": "Frontend Developer.",
+    "web": "Web Developer.",
+    "about": "About me",
+    "projects": "Projects"
+  },
+  "about": {
+    "title": "About me:",
+    "description": "I'm a frontend developer focused on building responsive, accessible, and user-friendly web applications. I work primarily with React, HTML/CSS, and JavaScript, and I'm currently diving into React Native for mobile app development.\n\nI enjoy turning UI designs into functional interfaces and constantly aim to write clean, maintainable code.",
+    "experience": "Years of experience. Specialised in building apps, while ensuring a seamless web experience for end users."
+  },
+
+  "services": {
+    "title": "The services I offer:",
+    "typescript": {
+      "title": "TYPESCRIPT",
+      "description": "I design beautiful web interfaces with Figma and Adobe XD"
+    },
+    "react": {
+      "title": "REACT",
+      "description": "I create interfaces using HTML, CSS, JavaScript, and ReactJS"
+    },
+    "styled": {
+      "title": "STYLED COMPONENTS",
+      "description": "I am a mobile developer with experience in Flutter and React Native"
+    }
+  },
+
+  "projects": {
+    "title": "Featured projects:",
+    "description": "I have projects that you can see and evaluate my skills and professionalism",
+    "rick": {
+      "title": "Rick & Morty",
+      "info": "A visual example of real-time API interaction using cartoon characters",
+      "description": "rick & morty project"
+    },
+    "livents": {
+      "title": "LIVENTS",
+      "info": "A video streaming app with live Geolocation, for streaming events.",
+      "description": "livents project"
+    },
+    "moove": {
+      "title": "MOOVE",
+      "info": "Mobile app for booking instant pickup & dropoff across major cities.",
+      "description": "moove project"
+    },
+    "buttons-name": {
+      "review": "View Live",
+      "repo": "Github Repo"
+    }
+  },
+
+  "form": {
+    "connectTitle": "Connect with me:",
+    "typewriter": ["Satisfied with me? Please contact me"],
+    "subtitle": "Contact me, let’s make magic together",
+    "name": "Name:",
+    "email": "Email:",
+    "message": "Message:",
+    "sendButton": "Send",
+    "success": {
+      "messageSent": "Message sent successfully!"
+    },
+    "error": {
+      "invalidEmail": "Please enter a valid email address.",
+      "sending": "Oops! Something went wrong."
+    }
+  },
+
+  "footer": {
+    "role1": "Frontend Developer",
+    "role2": "Web Developer",
+    "rights": "All rights reserved"
+  }
+}
