@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import { theme } from "../styles/Theme.ts";
+import {useEffect} from "react";
 
-// Используем $active — транзиентный пропс
 const Button = styled.button<{ $active: boolean }>`
     position: relative;
     color: ${theme.colors.font};
@@ -41,6 +41,12 @@ export const LanguageSwitcher = () => {
         i18n.changeLanguage(lng);
         localStorage.setItem('i18nextLng', lng);
     };
+
+    useEffect(() => {
+        if (!localStorage.getItem('i18nextLng')) {
+            changeLanguage('en');
+        }
+    }, []);
 
     return (
         <div>
