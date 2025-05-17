@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {MenuItems} from "../MenuItems.tsx";
 import {Container} from "../../../Container.tsx";
 import {MenuItemPropsType} from "../../../types/MenuItems.ts";
-import {LanguageSwitcher} from "../../LanguageSwitcher.tsx";
 
 
 type MenuProps = {
