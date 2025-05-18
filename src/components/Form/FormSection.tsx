@@ -53,7 +53,9 @@ export const FormSection = () => {
         <>
             <S.FormSection id="contacts">
                 <Container>
+
                     <S.FormWrapper>
+
                         <S.NetworksBlock>
                             <Title title={t("form.connectTitle")}/>
                             <p>

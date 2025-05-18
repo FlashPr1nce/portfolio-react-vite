@@ -11,8 +11,6 @@ const FormSection = styled.section`
 
 const FormWrapper = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: start;
     
     @media ${theme.media.mobile} {
         align-items: center;
@@ -21,18 +19,14 @@ const FormWrapper = styled.div`
 `
 
 const NetworksBlock = styled.div`
-    width: 298px;
     flex-grow: 1;
-
-    Title {
-        margin-bottom: 500px;
-    }
-    
+    width: 350px;
     p{
         font-weight: 500;
         font-size: 18px;
         line-height: 32px;
         margin-bottom: 18px;
+
         @media ${theme.media.mobile} {
             display: none;
         }
